@@ -1,0 +1,47 @@
+#search-bar {
+  display: flex;
+  flex-wrap: wrap;
+}
+#search-bar input[type=text] {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
+  width: 600px;
+  border-radius: 30px;
+  height: 35px;
+  border: ridge;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+#search {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+}
+#search input[value="Google Search"] {
+  border: none;
+  height: 40px;
+  margin-left: 25%;
+  margin-right: auto;
+}
+#search input[value="I'm Feeling Lucky"] {
+  height: 40px;
+  border: none;
+  margin-right: 35%;
+  margin-left: auto;
+}
+
+#middle {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20%;
+}
+
+#logo {
+  margin-left: 25%;
+}
+
+/*# sourceMappingURL=index.css.map */
